@@ -1,0 +1,33 @@
+# Ignore build results
+bin/
+obj/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore the final exe if not tracking build outputs
+diskOfflaner.exe
+
+# Ignore publish outputs
+publish/
+
+# Ignore Dotnet artifacts
+*.dbmdl
+*.pidb
+
+# Ignore Rider / JetBrains IDE files
+.idea/
+*.sln.iml
+
+# Ignore generated files
+Generated/
